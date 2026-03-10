@@ -40,7 +40,7 @@ ul {
     text-decoration: none;
     color: white;
     font-size: 25px;
-    margin: 50px;
+    margin: 40px;
 }
 
 .nava:hover {
@@ -49,16 +49,15 @@ ul {
 
 footer {
     background-color: #434f9d9c;
-    border-radius: 36px;
-    margin: 3%;
+    width: 100%;
     display: flex;
     align-items:center ;
     justify-content: center;
     padding: 20px;
     color: white;
     font-family: "Google Sans", sans-serif;
-
 }
+
 
 section {
     background-color: #434f9d9c;
@@ -85,6 +84,12 @@ section {
 
 }
 
+.start2:hover{
+    width: 220px;
+    height: 55px;
+    font-size: 22px;
+}
+
 .h6div {
     background-color: #434f9dd8;
     border-radius: 36px;
@@ -96,6 +101,7 @@ section {
     padding: 20px;
     color: white;
     font-family: "Google Sans", sans-serif;
+    gap: 20px;
 
 }
 
