@@ -68,14 +68,13 @@ ul {
 
 footer {
     background-color: #434f9d9c;
-    border-radius: 36px;
-    margin: 3%;
+    width: 100%;
     display: flex;
     align-items:center ;
     justify-content: center;
     padding: 20px;
     color: white;
-     font-family: "Google Sans", sans-serif;
+    font-family: "Google Sans", sans-serif;
 }
 
 .selector{
@@ -98,15 +97,28 @@ footer {
 .searchm{
     background-color: #2232999c;
     border-radius: 40px;
-    gap: 10px;
-    margin: 3%;
     padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 700px;
-    height: 150px;
+    height: 130px;
+}
+
+.prompt{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-right: 40px;
+    height: 30px;
+    width: 375px;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
 }
 
 .rights{
@@ -114,5 +126,15 @@ footer {
 }
 
 select{
-    
+    display: flex;
+    align-items: flex-end;
+    height: 31px;
+    font-size: 20px;
+    font-family: "Google Sans", sans-serif;
+    width: 90px;
+    margin-left: 440px;
+    transform: translateY(-109.9%);
+    border: none;
+    outline: none;
+    color: #757575;
 }
