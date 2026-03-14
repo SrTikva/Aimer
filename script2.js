@@ -10,12 +10,12 @@ async function sendToGemini() {
     const promptText = promptInput.value.trim();
     
     if (aiSelector.value =='chatGPT'){
-        API_KEY = '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';
+        API_KEY = '';
         URL = "https://api.openai.com/v1";
     }
 
     else if(aiSelector.value == 'gemini'){
-        API_KEY = 'AIzaSyC2O_uQWz9ndM3vgnNHEScdUVaZl0weLfU';
+        API_KEY = '';
         URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
     }
 
